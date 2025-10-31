@@ -3,7 +3,7 @@ version: '2.4'
 services:
 
   redis-service:
-    image: redis:7.2-alpine
+    image: redis:7-alpine
     command: redis-server --save "" --appendonly no
     ports:
       - 6379
